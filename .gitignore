@@ -1,0 +1,16 @@
+# 認証情報・秘密情報は絶対に追跡しない
+.env
+.env.*
+*.key
+*.pem
+*.p12
+credentials*
+*secret*
+.ssh/
+.aws/
+.gnupg/
+.netrc
+auth.json
+
+# OS・編集系
+.DS_Store

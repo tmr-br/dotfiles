@@ -1,0 +1,21 @@
+# cambozola (Mac mini 2018, Intel) — 最小構成のスターター
+#
+# これは雛形。実機の完全な一覧が正なので、実機で
+#   brew bundle dump --file brew/Brewfile.cambozola
+# を実行してこのファイルを置き換えること。
+#
+# Intel 機なので、formula / cask の対応状況は導入時に確認する。
+# Xcode は入れない（Xcode / iOS は mimolette 専任）。
+
+# シェル・基本ツール
+brew "fish"
+brew "git"
+brew "gh"
+brew "ghq"
+brew "jq"
+brew "ripgrep"
+brew "fd"
+brew "fzf"
+
+# 言語・ランタイムまわり
+brew "pnpm"

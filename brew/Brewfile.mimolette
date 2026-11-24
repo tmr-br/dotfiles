@@ -1,0 +1,25 @@
+# mimolette (MacBook Pro, M1 Pro) — 最小構成のスターター
+#
+# これは雛形。実機の完全な一覧が正なので、実機で
+#   brew bundle dump --file brew/Brewfile.mimolette
+# を実行してこのファイルを置き換えること。
+
+# シェル・基本ツール
+brew "fish"
+brew "git"
+brew "gh"
+brew "ghq"
+brew "jq"
+brew "ripgrep"
+brew "fd"
+brew "fzf"
+
+# 言語・ランタイムまわり
+brew "pnpm"
+
+# GUI
+cask "visual-studio-code"
+cask "iterm2"
+
+# Xcode は Mac App Store から
+mas "Xcode", id: 497799835
